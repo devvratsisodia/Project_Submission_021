@@ -14,12 +14,43 @@
       <header>
         <img class="menu-icon" src="{{url('/')}}/img/menu-icon.png" />
         <img class="filter-icon" src="{{url('/')}}/img/filter-icon.png" />
-       
+
         <h2 class="heading">Home</h2>
       </header>
       <div class="content">
        @foreach($listingdata as $listing)
-        <div class ="property_tile"></div>
+         <div class="tile">
+          <div class="imgb" style="background-image: url(img/dummy-property.jpg);"></div>
+          <div class="txtb">
+            <div class="price-detail">
+              <strong>11,500 <span>Per square feet</strong>
+              <strong class="total"></span>39,443 <span>Total square feet</strong>
+            </div>
+            <div class="description">
+              <h3>IBC Knowledge Park</h3>
+              <p>Lorem Ipsum dorel sit. Lorem Ipsum dorel sit. Lorem Ipsum dorel sit.</p>
+            </div>
+            <div class="aditional-info">
+              <strong>100% <span>Funded</span></strong>
+              <strong>100% <span>Funded</span></strong>
+              <strong>100% <span>Funded</span></strong>
+            </div>
+          </div>
+          <div class="bottom-bar">
+            <div>
+              <span class="icon"></span>
+              <span class="info">Rental Yield <strong>0.11%</strong></span>
+            </div>
+            <div>
+              <span class="icon"></span>
+              <span class="info">Rental Yield <strong>0.11%</strong></span>
+            </div>
+            <div>
+              <span class="icon"></span>
+              <span class="info">Rental Yield <strong>0.11%</strong></span>
+            </div>
+          </div>
+        </div>
         
         @endforeach
       </div>
