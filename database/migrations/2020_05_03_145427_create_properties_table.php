@@ -28,8 +28,8 @@ class CreatePropertiesTable extends Migration
             $table->integer('zipcode');
             $table->text('title');
             $table->text('address');
-            $table->DECIMAL('latitude',18,15);
-            $table->DECIMAL('longitude',18,15);
+            $table->float('latitude',18,15);
+            $table->float('longitude',18,15);
             $table->dateTime('deleted_at');
             $table->timestamps();
         });
