@@ -17,7 +17,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -28,7 +28,7 @@ class HomeController extends Controller
     public function index()
     {
          $listing_data = Properties::totallisting();
-         
+
         if(Browser::isMobile())
         {
             return View::make('mobile_app.home', ['listingdata' => $listing_data]);
@@ -41,7 +41,7 @@ class HomeController extends Controller
     }
     public function postPropertyResult()
     {
-         dd(1);
+         //dd(1);
         return Response::json(array('status' => 1, 'data' => $data));
     }
 }

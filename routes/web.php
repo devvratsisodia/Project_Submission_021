@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mobile_app.home');
 });
 
 Auth::routes();
