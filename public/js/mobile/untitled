@@ -1,0 +1,39 @@
+function createInput(elem_selector){
+		var elem = $(elem_selector);
+		var input_id = elem.data('input-id');
+		var circle_width = 17.5;
+		var body_width = $('body').width();
+		var pickerWidth = 8 * ($('body').width()/12);
+		var visible_elem = Math.floor(pickerWidth/liWidth);
+		if(visible_elem%2 == 0)
+			visible_elem--;
+		pickerWidth = visible_elem * liWidth;
+		// alert(pickerWidth);
+		elem.find('.cselect-option-cont').css('width', pickerWidth + 'px');
+
+		var margin = (Math.floor(pickerWidth/liWidth)/2) * liWidth;
+
+		elem.find(".cselect-option-scroll").css({"margin-left": margin - circle_width + "px"});
+		// $(".cselect-option-scroll").prepend('')
+		circle_margin_left = pickerWidth/2 - liWidth + circle_width;
+		elem.find('.cselect-circle').css({"margin-left": circle_margin_left + "px"});
+
+		elem.find(".cselect-option-scroll").width(totalWidth+ margin - liWidth + circle_width);
+		
+		//click on an element
+		$(elem_selector + " .cselect-option").click(function(){
+			var scrolledLeft = elem.find(".cselect-option-cont").scrollLeft();
+			var scrollable = $(this).position().left - circle_margin_left +scrolledLeft;
+			elem.find(".cselect-option-cont").animate({scrollLeft: scrollable}, 300);
+			var listValuec = $(this).text();
+			$('#'+input_id).val(listValuec);
+		});
+
+		//scroll handler
+		// $(elem_selector + " .cselect-option-scroll").scroll(function(){
+		// 	console.log('scroll');
+		// });
+
+	}
+	createInput('#cselect-guest');
+	createInput('#cselect-bedroom');

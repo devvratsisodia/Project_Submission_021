@@ -1,0 +1,90 @@
+@font-face{font-family:'MuseoSans';
+	src:url('../fonts/custom-fonts/museosans_100-webfont.eot');
+	src:url('../fonts/custom-fonts/museosans_100-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/custom-fonts/museosans_100-webfont.woff') format('woff'),
+	url('../fonts/custom-fonts/museosans_100-webfont.ttf') format('truetype'),
+	url('../fonts/custom-fonts/museosans_100-webfont.svg#MuseoSans100') format('svg');
+	font-weight:100;
+	font-style:normal
+}
+
+@font-face{
+	font-family:'MuseoSans';
+	src:url('../fonts/custom-fonts/museosans_100_italic-webfont.eot');
+	src:url('../fonts/custom-fonts/museosans_100_italic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/custom-fonts/museosans_100_italic-webfont.woff') format('woff'),
+	url('../fonts/custom-fonts/museosans_100_italic-webfont.ttf') format('truetype'),
+	url('../fonts/custom-fonts/museosans_100_italic-webfont.svg#MuseoSans100Italic') format('svg');
+	font-weight:100;font-style:italic
+}
+
+@font-face{
+	font-family:'MuseoSans';
+	src:url('../fonts/custom-fonts/museosans_300-webfont.eot');
+	src:url('../fonts/custom-fonts/museosans_300-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/custom-fonts/museosans_300-webfont.woff') format('woff'),
+	url('../fonts/custom-fonts/museosans_300-webfont.ttf') format('truetype'),
+	url('../fonts/custom-fonts/museosans_300-webfont.svg#MuseoSans300Regular') format('svg');
+	font-weight:300;
+	font-style:normal
+}
+
+@font-face{font-family:'MuseoSans';
+	src:url('../fonts/custom-fonts/museosans_500-webfont.eot');
+	src:url('../fonts/custom-fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/custom-fonts/museosans_500-webfont.woff') format('woff'),
+	url('../fonts/custom-fonts/museosans_500-webfont.ttf') format('truetype'),
+	url('../fonts/custom-fonts/museosans_500-webfont.svg#museo_sans500') format('svg');
+	font-weight:500;font-style:normal
+}
+
+@font-face{font-family:'MuseoSans';
+	src:url('museosans_500_italic-webfont.eot');
+	src:url('museosans_500_italic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('museosans_500_italic-webfont.woff') format('woff'),
+	url('museosans_500_italic-webfont.ttf') format('truetype'),
+	url('museosans_500_italic-webfont.svg#museo_sans500') format('svg');
+	font-weight:500;font-style:italic
+}
+
+@font-face{
+	font-family:'MuseoSans';
+	src:url('../fonts/custom-fonts/museosans_700-webfont.eot');
+	src:url('../fonts/custom-fonts/museosans_700-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/custom-fonts/museosans_700-webfont.woff') format('woff'),
+	url('../fonts/custom-fonts/museosans_700-webfont.ttf') format('truetype'),
+	url('../fonts/custom-fonts/museosans_700-webfont.svg#MuseoSans700Regular') format('svg');
+	font-weight:700;font-style:normal
+}
+
+@font-face{
+	font-family:'MuseoSans';
+	src:url('museosans_700_italic-webfont.eot');
+	src:url('museosans_700_italic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('museosans_700_italic-webfont.woff') format('woff'),
+	url('museosans_700_italic-webfont.ttf') format('truetype'),
+	url('museosans_700_italic-webfont.svg#MuseoSans700Regular') format('svg');
+	font-weight:700;font-style:italic
+}
+
+@font-face{font-family:'MuseoSans';
+	src:url('../fonts/custom-fonts/museosans_900-webfont.eot');
+	src:url('../fonts/custom-fonts/museosans_900-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/custom-fonts/museosans_900-webfont.woff') format('woff'),
+	url('../fonts/custom-fonts/museosans_900-webfont.ttf') format('truetype'),
+	url('../fonts/custom-fonts/museosans_900-webfont.svg#MuseoSans900') format('svg');
+	font-weight:900; font-style:normal
+}
+
+@font-face{font-family:'MuseoSans';
+	src:url('museosans_900_italic-webfont.eot');
+	src:url('museosans_900_italic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('museosans_900_italic-webfont.woff') format('woff'),
+	url('museosans_900_italic-webfont.ttf') format('truetype'),
+	url('museosans_900_italic-webfont.svg#MuseoSans900') format('svg');
+	font-weight:900;font-style:italic
+}
+
+
+
+
