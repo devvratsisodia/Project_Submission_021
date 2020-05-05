@@ -82,7 +82,7 @@
 
       <div class="filter">
         <div class="filter-header">
-          <img class="filter-cancel-icon" src="img/cancel-icon.png" />
+          <img class="filter-cancel-icon" src="{{url('/')}}/img/cancel-icon.png" />
           <h2>Filter</h2>
         </div>
         <label> <input type="checkbox" /> filter 1 </label>
@@ -98,12 +98,14 @@
     <script>
       $(".menu-icon").click(function () {
         $("menu").addClass("active");
+        $(".filter").removeClass("active");
       });
       $(".cancel-icon").click(function () {
         $("menu").removeClass("active");
       });
       $(".filter-icon").click(function () {
         $(".filter").addClass("active");
+        $("menu").removeClass("active");
       });
       $(".filter-cancel-icon").click(function () {
         $(".filter").removeClass("active");

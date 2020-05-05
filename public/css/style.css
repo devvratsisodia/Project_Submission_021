@@ -76,6 +76,7 @@ footer div.active{
 menu {
   background: #fff;
   position: fixed;
+  z-index: 1000001;
   width: 80%;
   height: 100%;
   padding: 60px 20px 0;
@@ -106,6 +107,7 @@ menu .cancel-icon {
 .filter {
   background: #fff;
   position: fixed;
+  z-index: 1000001;
   width: 80%;
   height: 100%;
   padding: 20px;
