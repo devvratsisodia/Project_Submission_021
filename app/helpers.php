@@ -3,6 +3,7 @@
 use Carbon\Carbon;
 use Carbon\CarbonPeriod;
 
+
 function calculatedays($date)
 {
 
@@ -12,6 +13,14 @@ function calculatedays($date)
 		    ? 'today'
 		    : $created->diffInDays($now);
 		    return $difference;
+}
+
+
+function image_path($image)
+{
+	$path = url('/').'/img/'.$image;
+
+	return $path;
 }
 
 

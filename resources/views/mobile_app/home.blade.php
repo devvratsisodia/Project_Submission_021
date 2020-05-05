@@ -20,8 +20,9 @@
       <div class="content" id="tile-content">
       	@if(!empty($listingdata))
        @foreach($listingdata as $listing)
+        
          <div class="tile">
-          <div class="imgb" style="background-image: url(/img/{{$listing->image}});"></div>
+          <div class="imgb" style="background-image: url({{image_path($listing->image)}});"></div>
           <div class="txtb">
             <div class="price-detail">
               <strong>Rs {{$listing->price_per_squre_feet}} <span>Per square feet</strong>
