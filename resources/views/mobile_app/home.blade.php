@@ -17,23 +17,26 @@
 
         <h2 class="heading">Home</h2>
       </header>
-      <div class="content">
+      <div class="content" id="tile-content">
+      	@if(!empty($listingdata))
        @foreach($listingdata as $listing)
          <div class="tile">
-          <div class="imgb" style="background-image: url(img/dummy-property.jpg);"></div>
+          <div class="imgb" style="background-image: url(/img/{{$listing->image}});"></div>
           <div class="txtb">
             <div class="price-detail">
-              <strong>11,500 <span>Per square feet</strong>
-              <strong class="total"></span>39,443 <span>Total square feet</strong>
+              <strong>Rs {{$listing->price_per_squre_feet}} <span>Per square feet</strong>
+              <strong class="total"></span>{{$listing->property_size}} <span>Total square feet</strong>
             </div>
+            
             <div class="description">
-              <h3>IBC Knowledge Park</h3>
-              <p>Lorem Ipsum dorel sit. Lorem Ipsum dorel sit. Lorem Ipsum dorel sit.</p>
+
+              <h3>{{$listing->title}}</h3>
+            <span style="float:left;"> </span>&nbsp;&nbsp; <span style="float:left;"><p>{{$listing->address}}.</p></span>
             </div>
             <div class="aditional-info">
               <strong>100% <span>Funded</span></strong>
               <strong>100% <span>Funded</span></strong>
-              <strong>100% <span>Funded</span></strong>
+              <strong>{{calculatedays($listing->created_at)}} <span>Day To Go</span></strong>
             </div>
           </div>
           <div class="bottom-bar">
@@ -53,12 +56,13 @@
         </div>
         
         @endforeach
+        @endif
       </div>
       <footer>
-        <div class ="footer-button" id="commercial" ><i class="fa fa-building" aria-hidden="true"></i>Commercial</div>
-        <div class ="footer-button" id="residential" ><i class="fa fa-home" aria-hidden="true"></i>Residential</div>
-        <div class ="footer-button" id="warehouses"><i class="fa fa-building-o" aria-hidden="true"></i>Warehouses</div>
-        <div class ="footer-button" id="alternative"><i class="fa fa-snowflake-o" aria-hidden="true"></i>Alternative</div>
+        <div class ="footer-button" id="commercial" data-val="1" ><i class="fa fa-building" aria-hidden="true"></i>Commercial</div>
+        <div class ="footer-button" id="residential" data-val="2" ><i class="fa fa-home" aria-hidden="true"></i>Residential</div>
+        <div class ="footer-button" id="warehouses" data-val="3"><i class="fa fa-building-o" aria-hidden="true"></i>Warehouses</div>
+        <div class ="footer-button" id="alternative" data-val="4"><i class="fa fa-snowflake-o" aria-hidden="true"></i>Alternative</div>
       </footer>
 
       <menu>
@@ -108,23 +112,19 @@
   			//alert(1);
             $('.footer-button').removeClass('active');
   			$(this).addClass('active');
-  			var type =$(this).attr('id');
+  			var type =$(this).data('val');
 
  
             //alert(type);
   			$.ajax({
                 url: 'home/property-result',
                 type: "POST",
+                dataType: "html",
                 data: {
                     'type': type
                 },
                 success: function(data) {
-                    if (data.success == 1) {
-                        //$('#prive_owner_info').show();
-                       alert('data restored');
-                    } else {
-                        alert('error');
-                    }
+                  $('#tile-content').html(data);
                 }
             }); // end ajax 
 

@@ -37,7 +37,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             1 => 
             array (
@@ -59,7 +59,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             2 => 
             array (
@@ -81,7 +81,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             3 => 
             array (
@@ -103,7 +103,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             4 => 
             array (
@@ -125,7 +125,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             5 => 
             array (
@@ -147,7 +147,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             6 => 
             array (
@@ -169,7 +169,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             7 => 
             array (
@@ -191,7 +191,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             8 => 
             array (
@@ -213,7 +213,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             9 => 
             array (
@@ -235,7 +235,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             10 => 
             array (
@@ -257,7 +257,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             11 => 
             array (
@@ -279,7 +279,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             12 => 
             array (
@@ -301,7 +301,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             13 => 
             array (
@@ -323,7 +323,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             14 => 
             array (
@@ -345,7 +345,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             15 => 
             array (
@@ -367,7 +367,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             16 => 
             array (
@@ -389,7 +389,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             17 => 
             array (
@@ -411,7 +411,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             18 => 
             array (
@@ -433,7 +433,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             19 => 
             array (
@@ -455,7 +455,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             20 => 
             array (
@@ -477,7 +477,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             21 => 
             array (
@@ -499,7 +499,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             22 => 
             array (
@@ -521,7 +521,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             23 => 
             array (
@@ -543,7 +543,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             24 => 
             array (
@@ -565,7 +565,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             25 => 
             array (
@@ -587,7 +587,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             26 => 
             array (
@@ -609,7 +609,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             27 => 
             array (
@@ -631,7 +631,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             28 => 
             array (
@@ -653,7 +653,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             29 => 
             array (
@@ -675,7 +675,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             30 => 
             array (
@@ -697,7 +697,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             31 => 
             array (
@@ -719,7 +719,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             32 => 
             array (
@@ -741,7 +741,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             33 => 
             array (
@@ -763,7 +763,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             34 => 
             array (
@@ -785,7 +785,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             35 => 
             array (
@@ -807,7 +807,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             36 => 
             array (
@@ -829,7 +829,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             37 => 
             array (
@@ -851,7 +851,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             38 => 
             array (
@@ -873,7 +873,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             39 => 
             array (
@@ -895,7 +895,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             40 => 
             array (
@@ -917,7 +917,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             41 => 
             array (
@@ -939,7 +939,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             42 => 
             array (
@@ -961,7 +961,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             43 => 
             array (
@@ -983,7 +983,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             44 => 
             array (
@@ -1005,7 +1005,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             45 => 
             array (
@@ -1027,7 +1027,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             46 => 
             array (
@@ -1049,7 +1049,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             47 => 
             array (
@@ -1071,7 +1071,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             48 => 
             array (
@@ -1093,7 +1093,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             49 => 
             array (
@@ -1115,7 +1115,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             50 => 
             array (
@@ -1137,7 +1137,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             51 => 
             array (
@@ -1159,7 +1159,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             52 => 
             array (
@@ -1181,7 +1181,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             53 => 
             array (
@@ -1203,7 +1203,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             54 => 
             array (
@@ -1225,7 +1225,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             55 => 
             array (
@@ -1247,7 +1247,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             56 => 
             array (
@@ -1269,7 +1269,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             57 => 
             array (
@@ -1291,7 +1291,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             58 => 
             array (
@@ -1313,7 +1313,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             59 => 
             array (
@@ -1335,7 +1335,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             60 => 
             array (
@@ -1357,7 +1357,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             61 => 
             array (
@@ -1379,7 +1379,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             62 => 
             array (
@@ -1401,7 +1401,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             63 => 
             array (
@@ -1423,7 +1423,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             64 => 
             array (
@@ -1445,7 +1445,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             65 => 
             array (
@@ -1467,7 +1467,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             66 => 
             array (
@@ -1489,7 +1489,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             67 => 
             array (
@@ -1511,7 +1511,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             68 => 
             array (
@@ -1533,7 +1533,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             69 => 
             array (
@@ -1555,7 +1555,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             70 => 
             array (
@@ -1577,7 +1577,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             71 => 
             array (
@@ -1599,7 +1599,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             72 => 
             array (
@@ -1621,7 +1621,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             73 => 
             array (
@@ -1643,7 +1643,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             74 => 
             array (
@@ -1665,7 +1665,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             75 => 
             array (
@@ -1687,7 +1687,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             76 => 
             array (
@@ -1709,7 +1709,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             77 => 
             array (
@@ -1731,7 +1731,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             78 => 
             array (
@@ -1753,7 +1753,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             79 => 
             array (
@@ -1775,7 +1775,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             80 => 
             array (
@@ -1797,7 +1797,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
             81 => 
             array (
@@ -1819,7 +1819,7 @@ class PropertiesTableSeeder extends Seeder
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
-                'staus' => 0,
+                'status' => 0,
             ),
         ));
         

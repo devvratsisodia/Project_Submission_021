@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 use DB; 
 use App\Properties;
 use View;
+use Response;
 use Browser;
+use Illuminate\Support\Facades\Input;
 
 class HomeController extends Controller
 {
@@ -28,6 +30,7 @@ class HomeController extends Controller
     public function index()
     {
          $listing_data = Properties::totallisting();
+         //dd($listing_data);
 
         if(Browser::isMobile())
         {
@@ -41,7 +44,11 @@ class HomeController extends Controller
     }
     public function postPropertyResult()
     {
-         //dd(1);
-        return Response::json(array('status' => 1, 'data' => $data));
+        $type = Input::get('type');
+        $result = Properties::listingfilter($type);
+
+        
+
+        return View::make('mobile_app.filter_tile', ['data' => $result]);
     }
 }
