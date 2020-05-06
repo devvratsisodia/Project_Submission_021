@@ -149,6 +149,7 @@
         //$('.footer-button').find('active').;
 
         var location = $('#location_list').find(":selected").text();
+        $(".filter").removeClass("active");
 
 
       });
