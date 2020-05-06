@@ -242,6 +242,7 @@ menu .cancel-icon {
   color: #ffffff;
   font-size: 14px;
 
+
 }
 .bottom-bar .icon {
   color: #ffffff;
@@ -264,4 +265,13 @@ menu .cancel-icon {
   border-spacing: 2px;
   border-color: #ffffff;
 
+}
+.info strong{
+
+  margin-left: 30px;
+
+}
+div.property-info:hover
+{
+  background-color: #00da88; 
 }
