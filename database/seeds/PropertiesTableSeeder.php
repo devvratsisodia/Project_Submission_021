@@ -35,9 +35,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-01 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             1 => 
             array (
@@ -57,9 +60,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             2 => 
             array (
@@ -79,9 +85,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             3 => 
             array (
@@ -101,9 +110,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             4 => 
             array (
@@ -123,9 +135,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             5 => 
             array (
@@ -145,9 +160,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             6 => 
             array (
@@ -167,9 +185,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             7 => 
             array (
@@ -189,9 +210,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             8 => 
             array (
@@ -211,9 +235,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             9 => 
             array (
@@ -233,9 +260,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             10 => 
             array (
@@ -255,9 +285,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             11 => 
             array (
@@ -277,9 +310,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             12 => 
             array (
@@ -299,9 +335,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             13 => 
             array (
@@ -321,9 +360,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             14 => 
             array (
@@ -343,9 +385,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             15 => 
             array (
@@ -365,9 +410,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             16 => 
             array (
@@ -387,9 +435,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             17 => 
             array (
@@ -409,9 +460,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             18 => 
             array (
@@ -431,9 +485,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             19 => 
             array (
@@ -453,9 +510,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 14.5,
+                'investment' => 3300000.0,
             ),
             20 => 
             array (
@@ -475,9 +535,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             21 => 
             array (
@@ -497,9 +560,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             22 => 
             array (
@@ -519,9 +585,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             23 => 
             array (
@@ -541,9 +610,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 123 B bloack sector 15 gurgaon',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             24 => 
             array (
@@ -563,9 +635,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             25 => 
             array (
@@ -585,9 +660,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             26 => 
             array (
@@ -607,9 +685,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             27 => 
             array (
@@ -629,9 +710,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             28 => 
             array (
@@ -651,9 +735,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             29 => 
             array (
@@ -673,9 +760,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             30 => 
             array (
@@ -695,9 +785,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             31 => 
             array (
@@ -717,9 +810,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             32 => 
             array (
@@ -739,9 +835,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             33 => 
             array (
@@ -761,9 +860,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             34 => 
             array (
@@ -783,9 +885,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             35 => 
             array (
@@ -805,9 +910,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             36 => 
             array (
@@ -827,9 +935,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             37 => 
             array (
@@ -849,9 +960,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             38 => 
             array (
@@ -871,9 +985,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             39 => 
             array (
@@ -893,9 +1010,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             40 => 
             array (
@@ -915,9 +1035,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             41 => 
             array (
@@ -937,9 +1060,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 15.5,
+                'investment' => 3600000.0,
             ),
             42 => 
             array (
@@ -959,9 +1085,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             43 => 
             array (
@@ -981,9 +1110,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             44 => 
             array (
@@ -1003,9 +1135,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             45 => 
             array (
@@ -1025,9 +1160,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             46 => 
             array (
@@ -1047,9 +1185,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             47 => 
             array (
@@ -1069,9 +1210,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             48 => 
             array (
@@ -1091,9 +1235,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             49 => 
             array (
@@ -1113,9 +1260,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             50 => 
             array (
@@ -1135,9 +1285,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             51 => 
             array (
@@ -1157,9 +1310,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             52 => 
             array (
@@ -1179,9 +1335,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             53 => 
             array (
@@ -1201,9 +1360,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             54 => 
             array (
@@ -1223,9 +1385,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             55 => 
             array (
@@ -1245,9 +1410,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Roorkee Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             56 => 
             array (
@@ -1267,9 +1435,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             57 => 
             array (
@@ -1289,9 +1460,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             58 => 
             array (
@@ -1311,9 +1485,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             59 => 
             array (
@@ -1333,9 +1510,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             60 => 
             array (
@@ -1355,9 +1535,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             61 => 
             array (
@@ -1377,9 +1560,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             62 => 
             array (
@@ -1399,9 +1585,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             63 => 
             array (
@@ -1421,9 +1610,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             64 => 
             array (
@@ -1443,9 +1635,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             65 => 
             array (
@@ -1465,9 +1660,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 17.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             66 => 
             array (
@@ -1487,9 +1685,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             67 => 
             array (
@@ -1509,9 +1710,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             68 => 
             array (
@@ -1531,9 +1735,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             69 => 
             array (
@@ -1553,9 +1760,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             70 => 
             array (
@@ -1575,9 +1785,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             71 => 
             array (
@@ -1597,9 +1810,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             72 => 
             array (
@@ -1619,9 +1835,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             73 => 
             array (
@@ -1641,9 +1860,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             74 => 
             array (
@@ -1663,9 +1885,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             75 => 
             array (
@@ -1685,9 +1910,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             76 => 
             array (
@@ -1707,9 +1935,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             77 => 
             array (
@@ -1729,9 +1960,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             78 => 
             array (
@@ -1751,9 +1985,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             79 => 
             array (
@@ -1773,9 +2010,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             80 => 
             array (
@@ -1795,9 +2035,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
             81 => 
             array (
@@ -1817,9 +2060,12 @@ class PropertiesTableSeeder extends Seeder
                 'address' => 'H.N 30  Dehradun Civel line ',
                 'latitude' => 23.45666,
                 'longitude' => 22.46666,
+                'rental_yeild' => 0.0,
                 'deleted_at' => '2020-05-03 14:52:48',
                 'created_at' => '2020-05-03 14:52:48',
                 'updated_at' => '2020-05-03 14:52:48',
+                'return_target' => 13.5,
+                'investment' => 3300000.0,
             ),
         ));
         

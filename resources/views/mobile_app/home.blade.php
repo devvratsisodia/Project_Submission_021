@@ -48,15 +48,15 @@
           <div class="bottom-bar">
             <div class="property-info">
               <span class="icon"></span>
-              <span class="info"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;Rental Yield <strong>0.11%</strong></span>
+              <span class="info"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;Rental Yield <strong>{{$listing->rental_yeild}}%</strong></span>
             </div>
             <div class="property-info">
               <span class="icon"></span>
-              <span class="info"><i class="fa fa-line-chart" aria-hidden="true"></i>&nbsp;&nbsp;Return Target <strong>0.11%</strong></span>
+              <span class="info"><i class="fa fa-line-chart" aria-hidden="true"></i>&nbsp;&nbsp;Return Target <strong>{{$listing->return_target}}%</strong></span>
             </div>
             <div class="property-info">
               <span class="icon"></span>
-              <span class="info"><i class="fa fa-database" aria-hidden="true"></i>&nbsp;&nbsp;Min Investment <strong>2500000</strong></span>
+              <span class="info"><i class="fa fa-database" aria-hidden="true"></i>&nbsp;&nbsp;Min Investment <strong>{{$listing->investment}}</strong></span>
             </div>
           </div>
         </div>
@@ -87,13 +87,13 @@
           <h2>Filter</h2>
         </div>
 
-        <label>Location:   <select  style="width: 100px;" id="location_list" >
+        <label>Location:   <select  style="width: 200px; height: : 50px;" id="location_list" >
                               @foreach($location_list as $location_list_key => $location_list_data)
                                 <option value="{{$location_list_key }}" >{{ $location_list_data }}</option>
                                 @endforeach
-                              </select>
-        <label> <input type="checkbox" /> filter 1 </label>
-        <label> <input type="checkbox" /> filter 1 </label>
+                              </select><br/><br/>
+        <label> Sort <input type="radio" name ="sortfilter"/> High To Low </label>
+        <label> <input type="radio"name ="sortfilter" selected/> Low to High </label>
 
         <div class="filter-footer">
           <button type="button" id ="apply_filter">Submit</button>
@@ -146,13 +146,35 @@
 
       $('#apply_filter').on('click',function(){
 
-        //$('.footer-button').find('active').;
+        
 
         var location = $('#location_list').find(":selected").text();
-        $(".filter").removeClass("active");
+
+        if($('#location_list').find(":selected").val()=='')
+        {
+           
+           alert('Please select the location');
+           return;
+
+        }
+     
+
+        $.ajax({
+                url: 'home/property-filter-result',
+                type: "POST",
+                dataType: "html",
+                data: {
+                    'location': location
+                },
+                success: function(data) {
+                  $('#tile-content').html(data);
+                  $(".filter").removeClass("active");
+                }
+            }); // end ajax 
 
 
       });
+
 
 
         // $(".multiple-select").select2({

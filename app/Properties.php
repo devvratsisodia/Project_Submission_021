@@ -20,6 +20,7 @@ class Properties extends Model
     	$listing_data = DB::table('properties')
        					->leftJoin('property_type', 'properties.property_type', '=', 'property_type.id')
        					->select('properties.*','property_type.status_title')
+       					->orderBy('return_target')
      					 ->get();
 
 
@@ -30,7 +31,7 @@ class Properties extends Model
 
 //Listing filter
 
-    public static function listingfilter($data)
+    public static function listingfilter($data='',$location='')
     {
     
 
@@ -38,14 +39,21 @@ class Properties extends Model
 
         $where ='';
 
+        $order_by = ' order by return_target desc';
+
         if($data !='')
         {
         	$where= 'where property_type ="'.$data.'"';
         }
 
+        if($location !='' && $where !='')
+        {
+        	$where .= ' and city = "'.$location.'"';
+        }
+
         //echo $query.$where;
 
-        $result = DB::select($query.$where);
+        $result = DB::select($query.$where.$order_by);
 
 
          

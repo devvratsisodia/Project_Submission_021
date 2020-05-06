@@ -24,3 +24,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::any('home/property-result', 'HomeController@postPropertyResult');
+Route::any('home/property-filter-result', 'HomeController@postPropertyFilterResult');
+

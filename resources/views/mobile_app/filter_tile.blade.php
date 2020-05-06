@@ -26,15 +26,15 @@
           <div class="bottom-bar">
             <div class="property-info">
               <span class="icon"></span>
-              <span class="info"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;Rental Yield <strong>0.11%</strong></span>
+              <span class="info"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;Rental Yield <strong>{{$listing->rental_yeild}}%</strong></span>
             </div>
             <div class="property-info">
               <span class="icon"></span>
-              <span class="info"><i class="fa fa-line-chart" aria-hidden="true"></i>&nbsp;&nbsp;Return Target <strong>0.11%</strong></span>
+              <span class="info"><i class="fa fa-line-chart" aria-hidden="true"></i>&nbsp;&nbsp;Return Target <strong>{{$listing->return_target}}%</strong></span>
             </div>
-            <div class="property-info" >
+            <div class="property-info">
               <span class="icon"></span>
-              <span class="info"><i class="fa fa-database" aria-hidden="true"></i>&nbsp;&nbsp;Min Investment <strong>2500000</strong></span>
+              <span class="info"><i class="fa fa-database" aria-hidden="true"></i>&nbsp;&nbsp;Min Investment <strong>{{$listing->investment}}</strong></span>
             </div>
           </div>
         </div>

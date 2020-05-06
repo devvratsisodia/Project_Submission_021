@@ -49,7 +49,8 @@ class HomeController extends Controller
     public function postPropertyResult()
     {
         $type = Input::get('type');
-        $result = Properties::listingfilter($type);
+        $location = '';
+        $result = Properties::listingfilter($type,$location);
 
         
 
@@ -58,9 +59,23 @@ class HomeController extends Controller
     private function locationfilterdata($data=0)
     {
 
-        $location = [''=>'select Location','1'=>'Delhi','2'=>'Gurgaon','3'=>'Pune','4'=>'Bengaluru'];
+        $location = [''=>'Select Location','1'=>'Delhi','2'=>'Gurgaon','3'=>'Pune','4'=>'Bengaluru'];
 
         return $location;
+
+    }
+
+    public function postPropertyFilterResult()
+    {
+
+        $location = Input::get('location');
+        $type = '';
+
+        $result = Properties::listingfilter($type, $location);
+
+        
+
+        return View::make('mobile_app.filter_tile', ['data' => $result]);
 
     }
 

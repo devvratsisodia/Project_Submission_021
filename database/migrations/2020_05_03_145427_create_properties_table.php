@@ -30,7 +30,10 @@ class CreatePropertiesTable extends Migration
             $table->text('address');
             $table->float('latitude',18,15);
             $table->float('longitude',18,15);
-            $table->dateTime('deleted_at');
+            $table->float('return_target',4,2);
+            $table->float('rental_yeild',4,2);
+            $table->float('investment',20,2);
+            $table->dateTime('deleted_at')->nullble();
             $table->timestamps();
         });
     }
