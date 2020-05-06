@@ -32,13 +32,17 @@ class HomeController extends Controller
          $listing_data = Properties::totallisting();
          //dd($listing_data);
 
+         $location = $this->locationfilterdata();
+
+         $selectedfilter =  array();
+
         if(Browser::isMobile())
         {
-            return View::make('mobile_app.home', ['listingdata' => $listing_data]);
+            return View::make('mobile_app.home', ['listingdata' => $listing_data,'location_list'=>$location,'selectedfilter'=>$selectedfilter]);
         }
         else
         {
-            return View::make('mobile_app.home', ['listingdata' => $listing_data]);
+            return View::make('mobile_app.home', ['listingdata' => $listing_data,'location_list'=>$location,' '=>$selectedfilter]);
         }
         
     }
@@ -51,4 +55,13 @@ class HomeController extends Controller
 
         return View::make('mobile_app.filter_tile', ['data' => $result]);
     }
+    private function locationfilterdata($data=0)
+    {
+
+        $location = [''=>'select Location','1'=>'Delhi','2'=>'Gurgaon','3'=>'Pune','4'=>'Bengaluru'];
+
+        return $location;
+
+    }
+
 }

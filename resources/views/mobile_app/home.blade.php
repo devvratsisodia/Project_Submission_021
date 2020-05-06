@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="{{ url('/').'/multipalselect/select2.css' }}" rel='stylesheet' type='text/css'>
    
   </head>
   <body>
@@ -85,12 +86,17 @@
           <img class="filter-cancel-icon" src="{{url('/')}}/img/cancel-icon.png" />
           <h2>Filter</h2>
         </div>
-        <label> <input type="checkbox" /> filter 1 </label>
+
+        <label>Location:   <select  style="width: 100px;" id="location_list" >
+                              @foreach($location_list as $location_list_key => $location_list_data)
+                                <option value="{{$location_list_key }}" >{{ $location_list_data }}</option>
+                                @endforeach
+                              </select>
         <label> <input type="checkbox" /> filter 1 </label>
         <label> <input type="checkbox" /> filter 1 </label>
 
         <div class="filter-footer">
-          <button type="submit">Submit</button>
+          <button type="button" id ="apply_filter">Submit</button>
         </div>
       </div>
     </div>
@@ -137,6 +143,22 @@
 
 
   		});
+
+      $('#apply_filter').on('click',function(){
+
+        //$('.footer-button').find('active').;
+
+        var location = $('#location_list').find(":selected").text();
+
+
+      });
+
+
+        // $(".multiple-select").select2({
+        //   placeholder: "Select Widget",
+        //    tags: "true",
+        // });
+        //$(".select2-container").css('width','100%');
 
 
 
