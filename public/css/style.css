@@ -228,7 +228,8 @@ menu .cancel-icon {
 .bottom-bar {
   float: left;
   width: 100%;
-  display:inline-block; 
+  display:inline-block;
+  background-color: #3494fa; 
 }
 .bottom-bar > div {
   background: #3494fa;
@@ -280,4 +281,5 @@ div.property-info:hover
 {
   position: relative;
   bottom: 0px;
+  background-color: 
 }
