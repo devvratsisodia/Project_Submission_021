@@ -179,7 +179,7 @@ menu .cancel-icon {
 }
 .price-detail strong.total {
   border-left: 1px solid #ccc;
-  color: #020202;
+  color: #84919f;
   text-align: center;
 }
 .price-detail strong span {
@@ -274,4 +274,10 @@ menu .cancel-icon {
 div.property-info:hover
 {
   background-color: #00da88; 
+}
+
+.property-info
+{
+  position: relative;
+  bottom: 0px;
 }
