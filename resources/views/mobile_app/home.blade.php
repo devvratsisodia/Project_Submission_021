@@ -101,7 +101,7 @@
         
 
         <div class="filter-footer">
-          <button  type="button" id ="apply_filter"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Apply</button>
+          <button  type="button" id ="apply_filter"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Apply Filter</button>
         </div>
       </div>
     </div>
