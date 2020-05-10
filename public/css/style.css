@@ -11,7 +11,7 @@ header {
   position: fixed;
   z-index: 10000;
   background-color: #3494fa;
-  padding: 20px;
+  padding: 6px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -29,8 +29,8 @@ header {
 }
 .filter-icon {
   float: right;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .sort-icon {
   float: right;
@@ -39,7 +39,7 @@ header {
   color: white;
 }
 .content {
-  padding: 100px 20px 0;
+  padding: 75px 12px 0;
 }
 .content .property_tile {
   border: 1px solid #000;
@@ -58,7 +58,7 @@ footer div {
   width: 25%;
   height: 60px;
   background-color: #3494fa;
-  border-right: 1px solid #fff;
+ /* border-right: 1px solid #fff;*/
   float: left;
   box-sizing: border-box;
   text-align: center;
@@ -125,7 +125,7 @@ menu .cancel-icon {
   margin-bottom: 40px;
 }
 .filter h2 {
-  font-size: 36px;
+  font-size: 24px;
 }
 .filter-cancel-icon {
   width: 40px;
@@ -138,6 +138,7 @@ menu .cancel-icon {
   left: 0;
   padding: 10px 20px;
   width: 100%;
+  text-align: center;
   box-sizing: border-box;
 }
 .filter-footer button {
@@ -146,7 +147,8 @@ menu .cancel-icon {
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
-  float: right;
+  border-radius: 7px;
+ /* float: right;*/
 }
 .tile {
   border-radius: 5px;
@@ -256,15 +258,39 @@ menu .cancel-icon {
   position: relative; 
   top: 20px;
   float: left; 
-  height: 20px; 
+  height: 17px; 
   width: 30%; 
+  font-size: 11px;
   text-align: center; 
-  border-radius: 0px 10px;
+  
   background: orange;
   color: #ffffff;
-  padding: 7px 9px;
-  border-spacing: 2px;
+  padding: 5px 7px;
+  border-spacing: 1px;
+  border-width: 1px;
   border-color: #ffffff;
+  border-style: dashed;
+
+}
+
+.image-banner-wishlist
+{
+  z-index: 1000; 
+  position: relative; 
+  top: 20px;
+  float: left; 
+  height: 17px; 
+  width: 30%; 
+  font-size: 11px;
+  text-align: center; 
+  
+  background: #00da88;
+  color: #ffffff;
+  padding: 5px 7px;
+  border-spacing: 1px;
+  border-width: 1px;
+  border-color: #ffffff;
+  border-style: dashed;
 
 }
 .info strong{
@@ -282,4 +308,37 @@ div.property-info:hover
   position: relative;
   bottom: 0px;
   background-color: 
+}
+#cover-spin {
+    position:fixed;
+    width:100%;
+    left:0;right:0;top:0;bottom:0;
+    background-color: rgba(255,255,255,0.7);
+    z-index:9999;
+    display:none;
+}
+
+@-webkit-keyframes spin {
+  from {-webkit-transform:rotate(0deg);}
+  to {-webkit-transform:rotate(360deg);}
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+#cover-spin::after {
+    content:'';
+    display:block;
+    position:absolute;
+    left:48%;top:40%;
+    width:40px;height:40px;
+    border-style:solid;
+    border-color:black;
+    border-top-color:transparent;
+    border-width: 4px;
+    border-radius:50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
 }

@@ -3,8 +3,13 @@
          <div class="tile">
           
           <div class="imgb" style="background-image: url('{{image_path($listing->image)}}');">
-           <div style="" class="image-banner"> Funded</div>
-          </div>
+            @if($listing->property_type==1)
+            <div style="" class=" image-banner"> Fully Funded</div>
+            @else
+            <div style="" class=" image-banner-wishlist "> Wishlist</div>
+            @endif
+            </div>
+      
           <div class="txtb">
             <div class="price-detail">
               <strong>&nbsp;<i style="color: #3494fa;" class="fa fa-inr" aria-hidden="true"></i>&nbsp;{{$listing->price_per_squre_feet}} <span >Per square feet</strong>

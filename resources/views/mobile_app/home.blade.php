@@ -8,9 +8,11 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="{{ url('/').'/multipalselect/select2.css' }}" rel='stylesheet' type='text/css'>
+     
    
   </head>
   <body>
+    <div id="cover-spin"></div>
     <div class="main-container">
       <header>
         <img class="menu-icon" src="{{url('/')}}/img/menu-icon.png" />
@@ -25,7 +27,11 @@
          <div class="tile">
           
           <div class="imgb" style="background-image: url('{{image_path($listing->image)}}');">
-            <div style="" class="image-banner"> Funded</div>
+            @if($listing->property_type==1)
+            <div style="" class=" image-banner"> Fully Funded</div>
+            @else
+            <div style="" class=" image-banner-wishlist "> Wishlist</div>
+            @endif
             </div>
           <div class="txtb">
             <div class="price-detail">
@@ -87,16 +93,15 @@
           <h2>Filter</h2>
         </div>
 
-        <label>Location:   <select  style="width: 200px; height: : 50px;" id="location_list" >
+        <label>Location: <br><br>  <select  style="width: 100%; height:30px; border: 5px solid #3494fa;" id="location_list" >
                               @foreach($location_list as $location_list_key => $location_list_data)
                                 <option value="{{$location_list_key }}" >{{ $location_list_data }}</option>
                                 @endforeach
                               </select><br/><br/>
-        <label> Sort <input type="radio" name ="sortfilter"/> High To Low </label>
-        <label> <input type="radio"name ="sortfilter" selected/> Low to High </label>
+        
 
         <div class="filter-footer">
-          <button type="button" id ="apply_filter">Submit</button>
+          <button  type="button" id ="apply_filter"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Apply</button>
         </div>
       </div>
     </div>
@@ -126,6 +131,7 @@
             $('.footer-button').removeClass('active');
   			$(this).addClass('active');
   			var type =$(this).data('val');
+        $('#cover-spin').show();
 
  
             //alert(type);
@@ -138,6 +144,7 @@
                 },
                 success: function(data) {
                   $('#tile-content').html(data);
+                  $('#cover-spin').hide();
                 }
             }); // end ajax 
 
@@ -146,12 +153,13 @@
 
       $('#apply_filter').on('click',function(){
 
-        
+        $('#cover-spin').show();
 
         var location = $('#location_list').find(":selected").text();
 
         if($('#location_list').find(":selected").val()=='')
         {
+          $('#cover-spin').hide();
            
            alert('Please select the location');
            return;
@@ -169,6 +177,7 @@
                 success: function(data) {
                   $('#tile-content').html(data);
                   $(".filter").removeClass("active");
+                  $('#cover-spin').hide();
                 }
             }); // end ajax 
 
